@@ -18,3 +18,13 @@ F:\zhengwei\AngelRM_MVC-master\Angel.DBHelper\bin\Debug\Angel.Model.pdb
 F:\zhengwei\AngelRM_MVC-master\Angel.DBHelper\obj\Debug\Angel.DBHelper.csprojResolveAssemblyReference.cache
 F:\zhengwei\AngelRM_MVC-master\Angel.DBHelper\obj\Debug\Angel.DBHelper.dll
 F:\zhengwei\AngelRM_MVC-master\Angel.DBHelper\obj\Debug\Angel.DBHelper.pdb
+D:\angel_mvc\Angel.DBHelper\bin\Debug\Angel.DBHelper.dll
+D:\angel_mvc\Angel.DBHelper\bin\Debug\Angel.DBHelper.pdb
+D:\angel_mvc\Angel.DBHelper\bin\Debug\Angel.Utils.dll
+D:\angel_mvc\Angel.DBHelper\bin\Debug\Angel.Model.dll
+D:\angel_mvc\Angel.DBHelper\bin\Debug\Newtonsoft.Json.dll
+D:\angel_mvc\Angel.DBHelper\bin\Debug\Angel.Utils.pdb
+D:\angel_mvc\Angel.DBHelper\bin\Debug\Angel.Model.pdb
+D:\angel_mvc\Angel.DBHelper\obj\Debug\Angel.DBHelper.csprojResolveAssemblyReference.cache
+D:\angel_mvc\Angel.DBHelper\obj\Debug\Angel.DBHelper.dll
+D:\angel_mvc\Angel.DBHelper\obj\Debug\Angel.DBHelper.pdb

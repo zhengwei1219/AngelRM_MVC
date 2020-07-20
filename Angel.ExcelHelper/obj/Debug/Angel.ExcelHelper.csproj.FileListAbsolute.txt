@@ -25,3 +25,13 @@ F:\zhengwei\AngelRM_MVC-master\Angel.ExcelHelper\bin\Debug\Angel.Model.pdb
 F:\zhengwei\AngelRM_MVC-master\Angel.ExcelHelper\obj\Debug\Angel.ExcelHelper.csprojResolveAssemblyReference.cache
 F:\zhengwei\AngelRM_MVC-master\Angel.ExcelHelper\obj\Debug\Angel.ExcelHelper.dll
 F:\zhengwei\AngelRM_MVC-master\Angel.ExcelHelper\obj\Debug\Angel.ExcelHelper.pdb
+D:\angel_mvc\Angel.ExcelHelper\bin\Debug\Angel.ExcelHelper.dll
+D:\angel_mvc\Angel.ExcelHelper\bin\Debug\Angel.ExcelHelper.pdb
+D:\angel_mvc\Angel.ExcelHelper\bin\Debug\Angel.Utils.dll
+D:\angel_mvc\Angel.ExcelHelper\bin\Debug\Angel.Model.dll
+D:\angel_mvc\Angel.ExcelHelper\bin\Debug\Newtonsoft.Json.dll
+D:\angel_mvc\Angel.ExcelHelper\bin\Debug\Angel.Utils.pdb
+D:\angel_mvc\Angel.ExcelHelper\bin\Debug\Angel.Model.pdb
+D:\angel_mvc\Angel.ExcelHelper\obj\Debug\Angel.ExcelHelper.csprojResolveAssemblyReference.cache
+D:\angel_mvc\Angel.ExcelHelper\obj\Debug\Angel.ExcelHelper.dll
+D:\angel_mvc\Angel.ExcelHelper\obj\Debug\Angel.ExcelHelper.pdb

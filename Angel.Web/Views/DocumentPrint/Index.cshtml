@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@Scripts.Render("~/Scripts/jquery-1.8.2.min.js")
+@Scripts.Render("~/Scripts/print.js")
+@Scripts.Render("~/Scripts/domWeb.js")
+<div class="printbar">
+    <span style="float:right;font-size:9pt"><a href="../DocumentPrint/PrintHelp" target="_blank" title="打开帮助页面"><img border=0 src='@Url.Content("~/images/help.gif")' />打印帮助</a></span>
+    <a href="javascript:void(0)" onclick="print()"><img src="@Url.Content("~/images/printbutton.gif")" border="0" alt="打印" /></a>
+    <object id="WebBrowser" width=0 height=0 classid="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></object>
+    <a href="javascript:void(0)" onclick="printPreview()">
+        <img src="../images/printpreviewbutton.gif" alt="打印预览" />
+    </a>
+    &nbsp;&nbsp;<a href="javascript:void(0)" onclick="window.close()"><img src="@Url.Content("~/images/closebutton.gif")" border="0" alt="关闭本窗口" /></a>
+    <asp:ImageButton ID="btPrintToWord" runat="server" OnClick="btToWord_Click" ImageUrl="../images/printtoword.gif" Visible="false" />
+</div>
+
+@{IHtmlString pPrintContent = new HtmlString(ViewData["pPrintContent"].ToString());  }
+@pPrintContent
+<script type="text/javascript">
+    function setPrintDate() {
+        var ticketno = request('id');
+        var type = request('type');
+        if (type == 'TicketOrder') {
+            $.ajax({
+                type: "POST",
+                url: "../Ticket/SetPrintDate",
+                async: false,
+                data: { TicketNo: ticketno },
+                success: function (data) {
+                    if (!data.IsSuccess)
+                        alert("设置订票单的打印时间,原因如下:\r\n" + data.ErrorMessage);
+                },
+                error: function (req, status, error) {
+                    alert("设置订票单的打印时间失败,原因如下:\r\n" + error);
+                }
+            });
+        }
+    }
+
+    function request(paras) {
+        var url = location.href;
+        var paraString = url.substring(url.indexOf("?") + 1, url.length).split("&");
+        var paraObj = {}
+        for (i = 0; j = paraString[i]; i++) {
+            paraObj[j.substring(0, j.indexOf("=")).toLowerCase()] = j.substring(j.indexOf("=") + 1, j.length);
+        }
+        var returnValue = paraObj[paras.toLowerCase()];
+        if (typeof (returnValue) == "undefined") {
+            return "";
+        } else {
+            return returnValue;
+        }
+    }
+</script>

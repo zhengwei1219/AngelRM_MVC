@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angel.Web", "Angel.Web\Angel.Web.csproj", "{D1FA098D-DF7A-4E37-974B-7C0A4E725F42}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angel.BLL", "Angel.BLL\Angel.BLL.csproj", "{F059DB2E-856F-4FDC-A052-1EB802ED743C}"
@@ -20,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angel.DBHelper", "Angel.DBHelper\Angel.DBHelper.csproj", "{0D3E7A36-FD24-4718-96CF-EFDC8AB81A10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angel.ReferenceLibrary", "Angel.ReferenceLibrary\Angel.ReferenceLibrary.csproj", "{0E0F4EC9-67BB-4054-8A40-98117CEC3D7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhengwei.Print", "Zhengwei.Print\Zhengwei.Print.csproj", "{7C378FB6-2B13-4078-BCD1-B3334FF928AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{0E0F4EC9-67BB-4054-8A40-98117CEC3D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E0F4EC9-67BB-4054-8A40-98117CEC3D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E0F4EC9-67BB-4054-8A40-98117CEC3D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C378FB6-2B13-4078-BCD1-B3334FF928AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C378FB6-2B13-4078-BCD1-B3334FF928AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C378FB6-2B13-4078-BCD1-B3334FF928AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C378FB6-2B13-4078-BCD1-B3334FF928AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

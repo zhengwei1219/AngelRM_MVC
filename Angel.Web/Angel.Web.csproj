@@ -208,6 +208,7 @@
     <Compile Include="Controllers\BbriefingController.cs" />
     <Compile Include="Controllers\CheckCodeController.cs" />
     <Compile Include="Controllers\DataCollectionController.cs" />
+    <Compile Include="Controllers\DocumentPrintController.cs" />
     <Compile Include="Controllers\DownController.cs" />
     <Compile Include="Controllers\ElectronicchapterController.cs" />
     <Compile Include="Controllers\InPutController.cs" />
@@ -223,6 +224,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Print\UserPrint.cs" />
+    <Compile Include="Print\ZhengweiPrintHandle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -300,7 +303,11 @@
     <Content Include="Content\themes\css\login.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\closebutton.gif" />
+    <Content Include="Images\help.gif" />
     <Content Include="Images\logo2.png" />
+    <Content Include="Images\printbutton.gif" />
+    <Content Include="Images\printpreviewbutton.gif" />
     <Content Include="Images\star1.png" />
     <Content Include="Images\Welcome1.png" />
     <Content Include="Scripts\dist\bootstrap-3.3.7\css\bootstrap-theme.css" />
@@ -910,12 +917,15 @@
     <Content Include="Scripts\dist\ztree\js\jquery.ztree.exedit.min.js" />
     <Content Include="Scripts\dist\ztree\js\jquery.ztree.exhide.js" />
     <Content Include="Scripts\dist\ztree\js\jquery.ztree.exhide.min.js" />
+    <Content Include="Scripts\domWeb.js" />
     <Content Include="Scripts\js\com.js" />
     <Content Include="Scripts\js\common.js" />
     <Content Include="Scripts\js\easyui.js" />
     <Content Include="Scripts\js\jquery.ztree.all-3.1.min.js" />
     <Content Include="Scripts\js\switchable.js" />
+    <Content Include="Scripts\print.js" />
     <Content Include="Scripts\wizard.min.js" />
+    <Content Include="Template\user.html" />
     <Content Include="ViewScripts\bootstrap-fileinput-master\bootstrap.min.css" />
     <Content Include="ViewScripts\bootstrap-fileinput-master\css\bootstrap.min.css" />
     <Content Include="ViewScripts\bootstrap-fileinput-master\css\fileinput.css" />
@@ -1072,6 +1082,7 @@
     <Content Include="Views\BarCode\Index.cshtml" />
     <Content Include="Views\Print\Index.cshtml" />
     <Content Include="Views\Electronicchapter\Index.cshtml" />
+    <Content Include="Views\DocumentPrint\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewScripts\Acquisition\" />
@@ -1108,6 +1119,10 @@
     <ProjectReference Include="..\Angel.Utils\Angel.Utils.csproj">
       <Project>{d88761a2-8f9e-4a8f-bfc2-39596348ce56}</Project>
       <Name>Angel.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zhengwei.Print\Zhengwei.Print.csproj">
+      <Project>{7c378fb6-2b13-4078-bcd1-b3334ff928aa}</Project>
+      <Name>Zhengwei.Print</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

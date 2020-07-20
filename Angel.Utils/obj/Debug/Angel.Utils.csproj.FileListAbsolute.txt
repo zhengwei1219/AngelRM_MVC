@@ -18,3 +18,11 @@ F:\zhengwei\AngelRM_MVC-master\Angel.Utils\bin\Debug\Angel.Model.pdb
 F:\zhengwei\AngelRM_MVC-master\Angel.Utils\obj\Debug\Angel.Utils.csprojResolveAssemblyReference.cache
 F:\zhengwei\AngelRM_MVC-master\Angel.Utils\obj\Debug\Angel.Utils.dll
 F:\zhengwei\AngelRM_MVC-master\Angel.Utils\obj\Debug\Angel.Utils.pdb
+D:\angel_mvc\Angel.Utils\bin\Debug\Angel.Utils.dll
+D:\angel_mvc\Angel.Utils\bin\Debug\Angel.Utils.pdb
+D:\angel_mvc\Angel.Utils\bin\Debug\Angel.Model.dll
+D:\angel_mvc\Angel.Utils\bin\Debug\Newtonsoft.Json.dll
+D:\angel_mvc\Angel.Utils\bin\Debug\Angel.Model.pdb
+D:\angel_mvc\Angel.Utils\obj\Debug\Angel.Utils.csprojResolveAssemblyReference.cache
+D:\angel_mvc\Angel.Utils\obj\Debug\Angel.Utils.dll
+D:\angel_mvc\Angel.Utils\obj\Debug\Angel.Utils.pdb
