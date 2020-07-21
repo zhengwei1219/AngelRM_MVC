@@ -14,6 +14,6 @@ F:\zhengwei\AngelRM_MVC-master\Angel.Model\obj\Debug\Angel.Model.pdb
 F:\zhengwei\AngelRM_MVC-master\Angel.Model\obj\Debug\Angel.Model.csprojResolveAssemblyReference.cache
 D:\angel_mvc\Angel.Model\bin\Debug\Angel.Model.dll
 D:\angel_mvc\Angel.Model\bin\Debug\Angel.Model.pdb
-D:\angel_mvc\Angel.Model\obj\Debug\Angel.Model.csprojResolveAssemblyReference.cache
 D:\angel_mvc\Angel.Model\obj\Debug\Angel.Model.dll
 D:\angel_mvc\Angel.Model\obj\Debug\Angel.Model.pdb
+D:\angel_mvc\Angel.Model\obj\Debug\Angel.Model.csprojResolveAssemblyReference.cache

@@ -1083,6 +1083,7 @@
     <Content Include="Views\Print\Index.cshtml" />
     <Content Include="Views\Electronicchapter\Index.cshtml" />
     <Content Include="Views\DocumentPrint\Index.cshtml" />
+    <Content Include="Views\SendMail\ZhengweiSendMail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewScripts\Acquisition\" />

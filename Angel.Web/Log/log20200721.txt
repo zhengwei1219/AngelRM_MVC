@@ -1,0 +1,186 @@
+InfoApiTime：2020/7/21 10:28:54,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 10:28:56,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 10:28:57,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 10:29:27,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 10:30:05,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/7/21 10:30:05,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 10:33:46,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/7/21 10:33:46,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 10:34:37,调用：Angel.ControllersApi/ControllerApi/RoomApiController/Get()方法
+InfoApiTime：2020/7/21 10:34:37,调用：Angel.ControllersApi/ControllerApi/RoomApiController/GetD()方法
+InfoApiTime：2020/7/21 10:34:43,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:14,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:14,调用：Angel.ControllersApi/ControllerApi/UserApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:17,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:19,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:23,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:24,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:34,调用：Angel.ControllersApi/ControllerApi/DownloadListManagerApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:36,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 10:35:39,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/7/21 10:35:39,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:30:45,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:31:40,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 14:31:41,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:31:57,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 14:32:04,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:32:40,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 14:32:41,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:32:46,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 14:32:46,调用：Angel.ControllersApi/ControllerApi/UserApiController/Get()方法
+InfoApiTime：2020/7/21 14:33:35,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 14:33:39,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/7/21 14:33:39,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:33:49,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:34:05,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 14:34:06,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:34:09,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 14:34:13,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/7/21 14:34:13,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 14:34:17,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 14:34:17,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 14:34:17,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 14:34:19,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 14:34:20,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 14:54:04,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'angelmvc.angel_filedata_bak' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Angel.DBHelper.MySqlHelpers.GetDataTable(String cmdText) 位置 d:\angel_mvc\Angel.DBHelper\MySqlHelpers.cs:行号 940
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'angelmvc.angel_filedata_bak' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Angel.DBHelper.MySqlHelpers.GetDataTable(String cmdText) 位置 d:\angel_mvc\Angel.DBHelper\MySqlHelpers.cs:行号 948
+   在 Angel.DataAccess.BaseService.GetDataTableToParamID(Dictionary`2 param) 位置 d:\angel_mvc\Angel.DataAccess\BaseService.cs:行号 376
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'angelmvc.angel_filedata_bak' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Angel.DBHelper.MySqlHelpers.GetDataTable(String cmdText) 位置 d:\angel_mvc\Angel.DBHelper\MySqlHelpers.cs:行号 940
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'angelmvc.angel_filedata_bak' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Angel.DBHelper.MySqlHelpers.GetDataTable(String cmdText) 位置 d:\angel_mvc\Angel.DBHelper\MySqlHelpers.cs:行号 948
+   在 Angel.DataAccess.BaseService.GetDataTableToParamID(Dictionary`2 param) 位置 d:\angel_mvc\Angel.DataAccess\BaseService.cs:行号 376
+InfoApiTime：2020/7/21 15:25:43,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 15:47:20,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 15:49:20,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:12:03,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 d:\angel_mvc\Angel.Service\BLLService.cs:行号 48
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 d:\angel_mvc\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/7/21 16:26:46,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:26:52,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:27:06,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 16:27:06,调用：Angel.ControllersApi/ControllerApi/UserApiController/Get()方法
+InfoApiTime：2020/7/21 16:27:17,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:27:20,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:28:34,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 16:28:35,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:28:41,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 16:28:45,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:29:02,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:29:13,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 16:29:16,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:29:18,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:29:23,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 16:29:25,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/7/21 16:29:26,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:29:29,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 16:29:29,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 16:29:29,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 16:29:29,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/21 16:29:36,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:30:02,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:30:15,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 16:30:15,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:30:17,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/21 16:30:17,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:36:45,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/21 16:36:56,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:37:40,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:42:34,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:45:15,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:46:06,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:46:20,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:47:25,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:53:33,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:53:37,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:54:41,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:54:49,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:56:40,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 16:56:41,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 16:57:49,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:08:01,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:09:03,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:09:42,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:09:43,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:10:17,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:10:32,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:10:39,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:11:10,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:11:15,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:11:16,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:13:42,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:17:10,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:17:40,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:17:41,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:19:00,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:19:49,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:19:50,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:21:13,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:21:13,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:21:36,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:21:47,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:21:57,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:29:47,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:34:14,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:34:20,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:34:28,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:34:28,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:34:48,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:34:48,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:35:16,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:35:17,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:37:11,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:37:11,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 d:\angel_mvc\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/7/21 17:39:29,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:39:30,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:42:31,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:42:43,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:44:10,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:44:15,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/21 17:44:57,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/21 17:45:02,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法

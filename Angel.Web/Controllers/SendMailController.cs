@@ -16,5 +16,15 @@ namespace Angel.Web.Controllers
             return View();
         }
 
+
+        public ActionResult SendMail()
+        {
+            return Content("OK");
+        }
+
+        public ActionResult ZhengweiSendMail()
+        {
+            return View();
+        }
     }
 }

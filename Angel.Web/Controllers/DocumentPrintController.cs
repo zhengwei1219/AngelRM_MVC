@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Angel.BLL;
+using Ninject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +13,8 @@ namespace Angel.Web.Controllers
     {
         //
         // GET: /DocumentPrint/
-
+        [Inject]
+        public IDataService QueryService { get; set; }
         public ActionResult Index()
         {
 
