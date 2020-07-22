@@ -77,9 +77,10 @@
         var content = $("#content").val();
         var account = $("#account").val();
         var title = $("#title").val();
+
         $.ajax({
             type: "POST",
-            url: '@Url.Action("ZhengweiSendMail", "SendMail")',
+            url: '@Url.Action("ZhengweiForSendMail", "SendMail")',
             data: { account: account, title:title,content: content},
             success: function (data) {
                 alert("成功");

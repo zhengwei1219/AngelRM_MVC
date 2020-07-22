@@ -2,4 +2,3 @@ D:\angel_mvc\Zhengwei.Print\bin\Debug\Zhengwei.Print.dll
 D:\angel_mvc\Zhengwei.Print\bin\Debug\Zhengwei.Print.pdb
 D:\angel_mvc\Zhengwei.Print\obj\Debug\Zhengwei.Print.dll
 D:\angel_mvc\Zhengwei.Print\obj\Debug\Zhengwei.Print.pdb
-D:\angel_mvc\Zhengwei.Print\obj\Debug\Zhengwei.Print.csprojResolveAssemblyReference.cache
