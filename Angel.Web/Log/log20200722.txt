@@ -28,3 +28,51 @@ InfoApiTime：2020/7/22 16:20:35,调用：Angel.ControllersApi/ControllerApi/Rol
 InfoApiTime：2020/7/22 16:20:36,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
 InfoApiTime：2020/7/22 16:24:27,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
 InfoApiTime：2020/7/22 16:24:30,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/22 17:02:35,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/22 17:02:38,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/22 17:02:39,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/7/22 17:02:47,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/22 17:03:14,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/22 17:03:15,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/22 17:03:43,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/22 17:04:16,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/22 17:04:17,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/22 17:04:23,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/22 17:04:25,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/22 17:04:38,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/22 17:04:43,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/22 17:04:47,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/22 17:04:54,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/7/22 17:04:54,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/22 17:04:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/22 17:04:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/22 17:04:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/7/22 17:05:00,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/7/22 17:05:02,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/22 17:08:02,调用：Angel.ControllersApi/ControllerApi/DownloadListManagerApiController/Get()方法
+InfoApiTime：2020/7/22 17:08:09,调用：Angel.ControllersApi/ControllerApi/DownloadListManagerApiController/Get()方法
+InfoApiTime：2020/7/22 17:25:36,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:41,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:42,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:42,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:44,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:45,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:46,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:46,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:48,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:25:49,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:26:13,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/7/22 17:30:46,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.DataAccess.BaseService.GetDataTableToParamID(Dictionary`2 param) 位置 d:\angel_mvc\Angel.DataAccess\BaseService.cs:行号 358
+Error：调用CMDI.Service.SaveExcel/Export()方法。System.ArgumentNullException: “table”参数不能为空。
+参数名: table
+   在 System.Data.DataTableCollection.BaseAdd(DataTable table)
+   在 System.Data.DataTableCollection.Add(DataTable table)
+   在 Angel.Service.SaveExcel.Export(Object bo) 位置 d:\angel_mvc\Angel.Service\SaveExcel.cs:行号 70
+测试(catch)：SaveExcel.State=3
+测试(finally)：SaveExcel.State=3
+InfoApiTime：2020/7/22 17:34:36,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/7/22 17:38:13,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/7/22 17:38:48,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
