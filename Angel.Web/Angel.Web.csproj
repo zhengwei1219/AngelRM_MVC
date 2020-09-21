@@ -970,7 +970,9 @@
     <Content Include="ViewScripts\sysmanager\menu.js" />
     <Content Include="ViewScripts\UploadFile\DataImport.js" />
     <Content Include="ViewScripts\UploadFile\FileBak.js" />
-    <Content Include="xmlsql\SqlQuery.xml" />
+    <Content Include="xmlsql\SqlQuery.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\dist\bootstrap-3.3.7\css\bootstrap-theme.css.map" />
     <Content Include="Scripts\dist\bootstrap-3.3.7\css\bootstrap-theme.min.css.map" />
     <Content Include="Scripts\dist\bootstrap-3.3.7\css\bootstrap.css.map" />

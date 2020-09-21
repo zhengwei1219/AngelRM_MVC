@@ -22,7 +22,6 @@ $(function () {
         return values;
     };
 
-    alert(_queryParams.pageSize);
     // bootstrap table初始化
     $table.bootstrapTable({
         method: 'post',
