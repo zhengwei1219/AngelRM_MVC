@@ -28,23 +28,27 @@ namespace Angel.Web.Print
             IOutPutWithTemplate one = null;
             try
             {
+                //根据type确定打印哪个类，根据docID获取打印的类
                 string type = GetDocType(request);
-                templateName = "user";
-
-                int userid = GetDocID(request);
-                string id = request["id"];
-                _queryService.GetData(new JObject(), "");
+                int docID = GetDocID(request);
+                type = "user";
+                switch (type)
+                {
+                    case "user":
                         UserPrint user = new UserPrint();
                         user.userName = "zhengwei";
-                return user;
+                        one = user;
+                        break;
+                }
+     
+                return one;
                  
                 
             }
             catch (Exception ep)
             {
-                //one = new NoRightPrintError();
+                throw new Exception("打印文件出错，原因：" + ep.Message);
             }
-            return one;
         }
     }
 }

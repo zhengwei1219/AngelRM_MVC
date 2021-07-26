@@ -2,3 +2,13 @@ D:\angel_mvc\Zhengwei.Print\bin\Debug\Zhengwei.Print.dll
 D:\angel_mvc\Zhengwei.Print\bin\Debug\Zhengwei.Print.pdb
 D:\angel_mvc\Zhengwei.Print\obj\Debug\Zhengwei.Print.dll
 D:\angel_mvc\Zhengwei.Print\obj\Debug\Zhengwei.Print.pdb
+E:\MyProject\AngelRM_MVC\Zhengwei.Print\bin\Debug\Zhengwei.Print.dll
+E:\MyProject\AngelRM_MVC\Zhengwei.Print\bin\Debug\Zhengwei.Print.pdb
+E:\MyProject\AngelRM_MVC\Zhengwei.Print\obj\Debug\Zhengwei.Print.dll
+E:\MyProject\AngelRM_MVC\Zhengwei.Print\obj\Debug\Zhengwei.Print.pdb
+F:\Project\AngelRM_MVC\Zhengwei.Print\bin\Debug\Zhengwei.Print.dll
+F:\Project\AngelRM_MVC\Zhengwei.Print\bin\Debug\Zhengwei.Print.pdb
+F:\Project\AngelRM_MVC\Zhengwei.Print\obj\Debug\Zhengwei.Print.csproj.CoreCompileInputs.cache
+F:\Project\AngelRM_MVC\Zhengwei.Print\obj\Debug\Zhengwei.Print.dll
+F:\Project\AngelRM_MVC\Zhengwei.Print\obj\Debug\Zhengwei.Print.pdb
+F:\Project\AngelRM_MVC\Zhengwei.Print\obj\Debug\Zhengwei.Print.csprojAssemblyReference.cache

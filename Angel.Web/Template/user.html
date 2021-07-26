@@ -1,3 +1,68 @@
-﻿<h2 style="color:red">用户名</h2> 
-<hr size=1 />
-<p>{用户名}</p>
+﻿<style>
+    table { border-collapse: collapse; }
+    td { padding: 3px;}
+
+    .Tab_title { width:inherit; margin:auto; border:2px solid #000; }
+    .Tab_title { width:100%; margin-bottom: 10px; clear: both; }
+    .Tab_title tr.thick { border: 2px solid #000; }
+    .Tab_title td.thick { border: 2px solid #000; padding: 7px; }
+    .Tab_title th.thick { border: 2px solid #000; padding: 7px; }
+    .Tab_title tr.thin { border: 1px solid #000;}
+    .Tab_title td.thin { border: 1px solid #000; padding: 7px;}
+    .Tab_title th.thin { border: 1px solid #000; padding: 7px;}
+   
+
+    .th { font-weight:bold;}
+    .tl { text-align:left;}
+    .tc { text-align:center;}
+    .tr { text-align:right;}
+
+    
+</style>
+<div class="a4 a4-condensed">
+    <div>
+        <h2>国际部费用单据汇总报销单</h2>
+    </div>
+    <div>
+        <h4>报销日期 {报销日期}</h4>
+    </div>
+    <div class="region">
+        <table class="Tab_title">
+            <tr>
+                <td class="th thick">报销部门</td>
+                <td colspan="5" class="textlong thick">{报销部门}</td>
+            </tr>
+            <tr >
+                <td rowspan="4" class="th thick">报销明细</td>
+                <td rowspan="4"  colspan="3" class="textlong thick">{报销明细}</td>
+                <td colspan="2" class="textlong thick" style="text-align: center;">附单据{附单据}张</td>
+            </tr>
+            <tr>
+                <td class="th thick">预借款</td>
+                <td colspan="3" class="textlong thick">{预借款}</td>
+            </tr>
+            <tr>
+                <td class="th thick">应领款</td>
+                <td colspan="3" class="textlong thick">{应领款}</td>
+            </tr>
+            <tr>
+                <td class="th thick">财务审核</td>
+                <td colspan="3" class="textlong thick"></td>
+            </tr>
+            <tr>
+                <td class="th thick">报销金额</td>
+                <td colspan="3" class="thick">人民币大写：{报销金额大写}</td>
+                <td colspan="2" class="thick">小写（￥）：{报销金额小写}</td>
+            </tr>
+            <tr>
+                <td class="th thick">局领导审批</td>
+                <td class="thick"></td>
+                <td class="th thick">处领导审批</td>
+                <td class="thick"></td>
+                <td class="th thick">报销人</td>
+                <td class="thick">{用户名}</td>
+            </tr>
+                   
+        </table>
+    </div>
+</div>

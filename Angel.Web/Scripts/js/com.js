@@ -59,6 +59,7 @@ com.server.delete = function (url, params, callback, errcallback) {
         callback = params;
         params = undefined;
     }
+
     if (!errcallback) {
         errcallback = function (e) {
             console.error('从服务端获取数据报错，错误是:\n' + e.statusText);
@@ -210,6 +211,7 @@ $(function () {
     //系统菜单绑定
     com.server.get("/api/roleapi/GetRolemeul", '', function (data) {
         if (data != null) {
+            console.log(JSON.stringify(data));
             toTreeDataOrder(data, 'id', 'parentid');
         }
     });

@@ -1,0 +1,112 @@
+﻿@{
+    ViewBag.Title = "jqueryZtree";
+}
+<script src="~/Scripts/jquery-1.8.2.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.24.js"></script>
+<link href="~/Scripts/jqueryZtree/zTreeStyle/zTreeStyle.css" rel="stylesheet" />
+<script src="~/Scripts/jqueryZtree/jquery.ztree.all-3.5.min.js"></script>
+<script src="~/Scripts/jqueryZtree/jquery.ztree.core-3.5.min.js"></script>
+<script src="~/Scripts/jqueryZtree/jquery.ztree.excheck-3.5.min.js"></script>
+<script src="~/Scripts/jqueryZtree/jquery.ztree.exedit-3.5.min.js"></script>
+<script src="~/Scripts/jqueryZtree/jquery.ztree.exhide-3.5.min.js"></script>
+<div id="tab">
+    <ul id="ZTProjects" class="ztree"></ul>
+</div>
+<script type="text/javascript">
+    var zTreeimagesUrl = '@Url.Content("~/Content")';
+    var WellboreId;
+    var Iframe;
+    var zTree;
+    var rMenu;
+    var MyNodes = [];
+    var key; //关键字查询
+    //Ztree settings
+    var setting = {
+        view: {
+            showTitle: true,
+            dblClickExpand: true,
+            showLine: true,
+            selectedMulti: true,
+            //addDiyDom: addDiyDom,
+            //fontCss: getFontCss,
+            nameIsHTML: true,
+            expandSpeed: (/msie/.test(navigator.userAgent.toLowerCase()) && !$.support.leadingWhitespace) ? "" : "fast"
+        },
+        asyncParam: [],
+        //async:
+        //{
+        //    enable: true,
+        //    url: getAsyncUrl
+        //},
+        data: {
+            simpleData: {
+                enable: true,
+                idKey: "Id",
+                pIdKey: "pId",
+                rootPId: ""
+            },
+            key: {
+                title: "FullName"
+            }
+        }
+        //,
+        //callback: {
+        //    beforeClick: beforeClick,
+        //    onClick: OnTNodeclick,
+        //    onAsyncSuccess: onAsyncSuccess,
+        //    //onExpand: zTreeOnExpand,
+        //    beforeExpand: zTreeBeforeExpand,
+        //    onCollapse: zTreeOnCollapse
+        //    // onRightClick: OnRightClick
+        //}
+    };
+    $(function () {
+        getNodes();
+        
+    });
+    function initTree() {
+        var t = $("#ZTProjects");
+        t = $.fn.zTree.init(t, setting, MyNodes);
+    }
+    function getNodes() {
+        {
+            var getnodesUrl = '@Url.Action("TreeNodes", "Tree")';
+            $.ajax({
+                type: 'POST',
+                url: getnodesUrl,
+                async: true,
+                data: "WellboreId=0",
+                success: function (data) {
+                    MyNodes = data;
+                    initTree();
+                    //MainResize();
+                    //ckbFilterchanged();
+                    @*if (NodeSelect) {
+                        var selectNode;
+                        var selectNodes = zTree.getNodesByParam("Code", NodeSelect.DataCode);
+                        if (NodeSelect.DataNodeId == null && selectNodes.length == 1) selectNode = selectNodes[0];
+                        if (NodeSelect.DataNodeId != '@Guid.Empty') {
+                            for (var i = 0; i < selectNodes.length; i++) {
+                                if (selectNodes[i].Id == NodeSelect.DataNodeId) selectNode = selectNodes[i];
+                            }
+                        }
+                        zTree.selectNode(selectNode);
+                        if (selectNode.Url == null) return;
+                        if (selectNode.Url.indexOf("&aa=") > 0) selectNode.Url = selectNode.Url.substring(0, selectNode.Url.indexOf("&aa="));
+                        selectNode.Url += "&aa=" + Math.random();
+                        // $("#IframeContent").attr("src", selectNode.Url);
+                        //alert('@Html.GetLangbyKey("加载失败及原因如下")：' + errorThrown);
+                        if (selectNode == undefined) return;
+                        redirectFrame(selectNode.Url);
+                        $(document.getElementById('IframeContent').contentWindow.document.body).html(XMLHttpRequest.responseText);
+                    }*@
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+                }
+            });
+            parent.RefToolbar();
+        }
+
+    }
+</script>

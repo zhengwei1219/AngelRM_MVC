@@ -1,0 +1,252 @@
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 390
+   在 Angel.Service.MysqlService.ExecuteScalar(String sql) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\MysqlService.cs:行号 76
+   在 Angel.Service.BLLService.GetDataBefor(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 429
+InfoApiTime：2021/5/22 0:02:20,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 376
+InfoApiTime：2021/5/22 7:37:14,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 376
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 390
+   在 Angel.Service.MysqlService.ExecuteScalar(String sql) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\MysqlService.cs:行号 76
+   在 Angel.Service.BLLService.GetDataBefor(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 429
+InfoApiTime：2021/5/22 7:37:45,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 376
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 390
+   在 Angel.Service.MysqlService.ExecuteScalar(String sql) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\MysqlService.cs:行号 76
+   在 Angel.Service.BLLService.GetDataBefor(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 429
+InfoApiTime：2021/5/22 7:38:01,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 376
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 390
+   在 Angel.Service.MysqlService.ExecuteScalar(String sql) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\MysqlService.cs:行号 76
+   在 Angel.Service.BLLService.GetDataBefor(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 429
+InfoApiTime：2021/5/22 7:38:49,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 376
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 390
+   在 Angel.Service.MysqlService.ExecuteScalar(String sql) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\MysqlService.cs:行号 76
+   在 Angel.Service.BLLService.GetDataBefor(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 429
+InfoApiTime：2021/5/22 7:38:56,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 376
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 390
+   在 Angel.Service.MysqlService.ExecuteScalar(String sql) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\MysqlService.cs:行号 76
+   在 Angel.Service.BLLService.GetDataBefor(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 429
+InfoApiTime：2021/5/22 7:39:24,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 376
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' not supported by any of the available plugins.
+   在 MySql.Data.MySqlClient.Authentication.AuthenticationPluginManager.GetPlugin(String method)
+   在 MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.GetPlugin(String method, NativeDriver driver, Byte[] authData)
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 Angel.DBHelper.MySqlHelpers.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, MySqlTransaction trans, CommandType cmdType, String cmdText, MySqlParameter[] cmdParms) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 801
+   在 Angel.DBHelper.MySqlHelpers.ExecuteScalar(String cmdText) 位置 e:\MyProject\AngelRM_MVC\Angel.DBHelper\MySqlHelpers.cs:行号 390
+   在 Angel.Service.MysqlService.ExecuteScalar(String sql) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\MysqlService.cs:行号 76
+   在 Angel.Service.BLLService.GetDataBefor(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 429
+InfoApiTime：2021/5/22 13:28:00,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2021/5/22 13:28:06,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2021/5/22 13:28:06,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 13:28:26,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:28:49,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:28:49,调用：Angel.ControllersApi/ControllerApi/UserApiController/Get()方法
+InfoApiTime：2021/5/22 13:30:05,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:30:19,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:30:29,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:30:29,调用：Angel.ControllersApi/ControllerApi/UserApiController/Get()方法
+InfoApiTime：2021/5/22 13:30:51,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:31:20,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:31:26,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2021/5/22 13:31:30,调用：Angel.ControllersApi/ControllerApi/DownloadListManagerApiController/Get()方法
+InfoApiTime：2021/5/22 13:31:41,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:31:46,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:31:46,调用：Angel.ControllersApi/ControllerApi/UserApiController/Get()方法
+InfoApiTime：2021/5/22 13:31:57,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:34:12,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2021/5/22 13:34:13,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:34:30,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:34:48,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2021/5/22 13:34:48,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:34:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2021/5/22 13:34:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2021/5/22 13:34:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2021/5/22 13:35:00,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:35:03,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 13:35:20,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2021/5/22 13:35:20,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 13:35:29,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:35:37,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:35:44,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2021/5/22 13:35:44,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2021/5/22 13:35:50,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2021/5/22 13:35:50,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2021/5/22 13:35:50,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2021/5/22 13:35:51,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2021/5/22 13:36:01,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 15:54:16,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2021/5/22 15:54:29,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2021/5/22 15:54:33,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 15:54:44,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 15:56:00,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 16:03:29,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 16:07:10,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2021/5/22 16:07:12,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 16:07:18,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2021/5/22 16:41:53,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法

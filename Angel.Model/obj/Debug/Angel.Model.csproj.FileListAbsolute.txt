@@ -17,3 +17,14 @@ D:\angel_mvc\Angel.Model\bin\Debug\Angel.Model.pdb
 D:\angel_mvc\Angel.Model\obj\Debug\Angel.Model.dll
 D:\angel_mvc\Angel.Model\obj\Debug\Angel.Model.pdb
 D:\angel_mvc\Angel.Model\obj\Debug\Angel.Model.csprojResolveAssemblyReference.cache
+E:\MyProject\AngelRM_MVC\Angel.Model\bin\Debug\Angel.Model.dll
+E:\MyProject\AngelRM_MVC\Angel.Model\bin\Debug\Angel.Model.pdb
+E:\MyProject\AngelRM_MVC\Angel.Model\obj\Debug\Angel.Model.dll
+E:\MyProject\AngelRM_MVC\Angel.Model\obj\Debug\Angel.Model.pdb
+E:\MyProject\AngelRM_MVC\Angel.Model\obj\Debug\Angel.Model.csprojResolveAssemblyReference.cache
+F:\Project\AngelRM_MVC\Angel.Model\bin\Debug\Angel.Model.dll
+F:\Project\AngelRM_MVC\Angel.Model\bin\Debug\Angel.Model.pdb
+F:\Project\AngelRM_MVC\Angel.Model\obj\Debug\Angel.Model.csproj.CoreCompileInputs.cache
+F:\Project\AngelRM_MVC\Angel.Model\obj\Debug\Angel.Model.dll
+F:\Project\AngelRM_MVC\Angel.Model\obj\Debug\Angel.Model.pdb
+F:\Project\AngelRM_MVC\Angel.Model\obj\Debug\Angel.Model.csprojAssemblyReference.cache

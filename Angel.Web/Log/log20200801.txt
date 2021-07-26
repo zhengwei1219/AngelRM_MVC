@@ -1,0 +1,93 @@
+InfoApiTime：2020/8/1 12:00:40,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/8/1 12:00:44,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:02:10,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:03:18,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:03:19,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:03:21,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:03:28,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/8/1 12:03:28,调用：Angel.ControllersApi/ControllerApi/UserApiController/Get()方法
+InfoApiTime：2020/8/1 12:03:51,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/8/1 12:03:54,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/8/1 12:03:54,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:03:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:03:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:03:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:04:00,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/8/1 12:04:05,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 12:06:35,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:06:40,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:06:45,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:06:47,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:07:48,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:07:49,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:07:54,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:07:55,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:07:56,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:07:56,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:07:57,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 12:07:59,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/8/1 12:08:02,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Getroleid()方法
+InfoApiTime：2020/8/1 12:08:02,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 12:08:09,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:08:09,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:08:09,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Post([FromBody]string value)方法
+InfoApiTime：2020/8/1 12:08:10,调用：Angel.ControllersApi/ControllerApi/RoleApiController/Get()方法
+InfoApiTime：2020/8/1 12:08:11,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 19:20:20,调用：Angel.ControllersApi/ControllerAPI/LoginApiController/Get()方法
+InfoApiTime：2020/8/1 19:20:23,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 19:25:42,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 19:25:57,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 19:27:57,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 19:28:26,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 19:28:48,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 19:29:30,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 Angel.Service.BLLService.GetData(JObject param, String serverName) 位置 e:\MyProject\AngelRM_MVC\Angel.Service\BLLService.cs:行号 48
+InfoApiTime：2020/8/1 20:20:08,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 20:20:13,调用：Angel.ControllersApi/ControllerApi/RoleApiController/GetRolemeul()方法
+InfoApiTime：2020/8/1 20:20:16,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法
+InfoApiTime：2020/8/1 20:20:28,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/8/1 20:20:35,调用：Angel.ControllersApi/ControllerApi/LoginlogApiController/PostList()方法
+InfoApiTime：2020/8/1 20:20:44,调用：Angel.ControllersApi/ControllerApi/MenuApiController/Get()方法

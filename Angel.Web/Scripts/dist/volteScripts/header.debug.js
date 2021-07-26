@@ -60,7 +60,9 @@ function clickMenu(obj) {
 function showUserMenuNavlist() {
     $.get('/getSession').done(function (data, textStatus) {
         var usermenucom = new com.Server("SysUserGetMenuList");
-        usermenucom.get({username: data.userinfo.role}, function (data) {
+        usermenucom.get({ username: data.userinfo.role }, function (data) {
+            alert(111);
+            console.log(JSON.stringify(data.response.data));
             if (data.response.data != null && data.response.data[0].data.length != 0) {
                 toTreeDataOrder(data.response.data, 'id', 'parentid', 'children');
             }
